@@ -12,17 +12,20 @@ a, a:visited {
 
 .box{
     max-width:20%;
-    float: left;
 }
 
-.forum-content h2{
-    color:#fff;
-}
 .forum-content {
     height:auto;
     padding:5px 10px;
 }
-.comments-space {
+
+.forum-content h2{
+    color:#fff;
+    font-size: 16px;
+}
+
+.comments-space,
+.comments-space-with-link{
     width:90%;
     min-height:50px;
     height:auto;
@@ -36,3 +39,22 @@ a, a:visited {
 .remaining-content span {
     display:none;
 }
+
+/* Table Row loading */
+
+.tbl-loadmore tr{
+  background-color:#fff;
+}
+
+
+.tbl-loadmore td{
+  padding:4px 30px;
+}
+
+.tbl-loadMore-btn{
+  background-color:#fff;
+  display:inline-block;
+  color:#333;
+  padding:10px 73px;
+}
+
