@@ -27,7 +27,6 @@ $(".morelink").click(function () {
     return false;
 });
 
-
 // *** Limit Content & add link to ( See More / See Less ) ***
 
 var showChar = 256;
@@ -60,4 +59,10 @@ $(document).ready(function() {
     pageIndex++;
   });
   
+});
+
+/* New Lines for watch */
+
+$(document).ready(function() {
+  console.log('I will delete this codes');
 });
